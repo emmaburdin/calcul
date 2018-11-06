@@ -1,3 +1,5 @@
+# Améliorations par Emma Burdin
+
 # Author : Antoine Scherrer <antoine.scherrer@lecol-ldlc.com>
 # Licence : GPL
 

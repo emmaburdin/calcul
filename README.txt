@@ -7,7 +7,7 @@ Fonctionnalités possibles :
  - Ajouter d'autres types de calcul (Pythagore, Thales, etc.)
  - ...
 
-Votre nom :
+Votre nom : Emmma Burdin
 
 Vos fonctionnalités :
  -

@@ -7,8 +7,9 @@ from math import sqrt, pi
 
 while True:
     choice_fig = int(
-        input("Which figure you want to work with ? 1: equilateral triangle, 2: square, 3: rectangle, 4: circle ?"))
-    choice_comp = int(input("Which computation do you need ? 1: perimeter, 2: area"))
+        input(
+            "Which figure you want to work with ? 1: equilateral triangle, 2: square, 3: rectangle, 4: circle, 5: rectangle triangle ?"))
+    choice_comp = int(input("Which computation do you need ? 1: perimeter, 2: area, 3:  Pythagorean theorem ?"))
     if choice_fig == 1:
         segment_length = float(input("What is the size of one side ?"))
         if choice_comp == 1:
@@ -34,4 +35,14 @@ while True:
         if choice_comp == 1:
             print("The perimeter is", 2 * segment_length * pi)
         elif choice_comp == 2:
-            print("The area is,"(pi) * (segment_length * segment_length))
+            print("The area is,"(pi) * (segment_length ** 2))
+    elif choice_fig == 5:
+        segment_length = float(input("What is the size of one side?"))
+        segment_length2 = float(input("What os the size of the other side?"))
+        if choice_comp == 1
+            print("The perimeter is",
+                  segment_length + segment_length2 + (sqrt(segment_length ** 2 + segment_length2 ** 2)))
+        if choice_comp == 2:
+            print("the area is", segment_length * segment_length2 / 2)
+        if choice_comp == 3:
+            print("The Pythagorean theorem is", sqrt(segment_length ** 2 + segment_length2 ** 2))

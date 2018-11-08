@@ -10,7 +10,7 @@ Fonctionnalités possibles :
 Votre nom : Emmma Burdin
 
 Vos fonctionnalités :
- -
+ - Cercle et rectangle ajoutés
  -
  -
 

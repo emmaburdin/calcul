@@ -31,4 +31,7 @@ while True:
             print("The area is,", segment_length2 * segment_length)
     elif choice_fig == 4:
         segment_length = float(input("What is the size of the radient?"))
-        if choice_comp == 1
+        if choice_comp == 1:
+            print("The perimeter is", 2 * segment_length * pi)
+        elif choice_comp == 2:
+            print("The area is,"(pi) * (segment_length * segment_length))

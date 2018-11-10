@@ -12,7 +12,7 @@ Votre nom : Emmma Burdin
 Vos fonctionnalités :
  - Cercle et rectangle ajoutés
  - Pythagore
- -
+ - Aire et perimètre du triangle rectangle
 
 
 
